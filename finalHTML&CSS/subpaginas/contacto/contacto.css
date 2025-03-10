@@ -1,0 +1,63 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilo general del cuerpo de la página */
+body {
+    background: #280101; /* Fondo oscuro */
+    color: white; /* Texto en color blanco */
+    font-family: "Playfair Display", serif; /* Fuente principal */
+}
+
+/* Estilos para las tablas */
+table {
+    border: 2px solid rgb(255, 255, 255); /* Borde blanco de 2px */
+    border-radius: 2%; /* Bordes ligeramente redondeados */
+    padding-right: 12%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    margin-top: 100px; /* Espaciado superior */
+    font-size: 25px; /* Tamaño de fuente */
+    margin-bottom: 50px; /* Espaciado inferior */
+}
+
+/* Estilos para el pie de página */
+footer {
+    display: flex; /* Usa flexbox para organizar elementos */
+    justify-content: center; /* Centra los elementos dentro del footer */
+    gap: 20px; /* Espacio entre elementos */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para los botones de entrada dentro del footer */
+footer input {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */       
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border: 1px solid rgb(255, 255, 255); /* Borde blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    background: linear-gradient(rgb(255, 128, 128),rgb(255, 21, 21)); /* Degradado de color rojo */
+    -webkit-background-clip: text; /* Aplica el fondo solo al texto */
+    color: transparent; /* Hace el texto transparente */
+    font-size: 30px; /* Tamaño de la fuente */
+    font-family: "Playfair Display", serif; /* Fuente específica */
+}
+
+/* Efecto hover en los botones del footer */
+footer input:hover {
+    font-size: 30px; /* Tamaño de fuente mantiene el mismo tamaño */      
+    text-shadow: 0px 0px 20px rgba(255, 0, 0, 0.432); /* Sombra de texto roja */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen */
+    margin-top: 30px; /* Espaciado superior */
+    margin-bottom: -70px; /* Espaciado negativo para subir la imagen */
+}
+
