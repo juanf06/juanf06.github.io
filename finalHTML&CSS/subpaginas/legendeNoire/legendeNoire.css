@@ -1,0 +1,66 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilo general del cuerpo de la página */
+body {
+    background: #280101; /* Color de fondo oscuro */
+    color: white; /* Color del texto en blanco */
+    font-family: "Playfair Display", serif; /* Fuente principal */
+    background-image: url(./cabecera1Recortada2.png); /* Imagen de fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-size: 1890px; /* Ajusta el tamaño de la imagen de fondo */
+}
+
+/* Estilos para el primer nombre */
+.name1 {
+    font-family: "Playfair Display", serif;
+    font-style: italic; /* Texto en cursiva */
+    font-size: 70px; /* Tamaño de fuente grande */
+    text-align: center; /* Centra el texto */
+    display: block; /* Se muestra como un bloque */
+    margin-top: 160px;
+    margin-right: 1100px;
+}
+
+/* Estilos para el segundo nombre */
+.name2 {
+    font-family: "Playfair Display", serif;
+    font-size: 70px; /* Tamaño de fuente grande */
+    text-align: center;
+    display: block;
+    margin-top: -170px; /* Posicionamiento negativo para solapar elementos */
+    margin-right: 1000px;
+    margin-left: 1350px;
+}
+
+/* Estilos para los encabezados h1 */
+h1 {
+    background: linear-gradient(rgb(255, 0, 0),rgb(255, 71, 71)); /* Degradado de color rojo */
+    -webkit-background-clip: text; /* Aplica el degradado solo al texto */
+    color: transparent; /* Hace el texto transparente */
+    text-shadow: 0px 0px 30px rgba(255, 0, 0, 0.171); /* Sombra roja */
+    font-size: 30px; /* Tamaño de fuente */
+    margin-top: 450px;
+    margin-left: 100px;
+}
+
+/* Estilos para los encabezados h2 */
+h2 {
+    margin-left: 100px; /* Margen izquierdo */
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-left: 100px; /* Margen izquierdo */
+    margin-right: 100px; /* Margen derecho */
+    word-spacing: 6px; /* Espaciado entre palabras */
+}
+
+/* Estilos para el pie de página */
+footer {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    text-align: center; /* Centra el contenido */
+    clear: both; /* Evita que elementos flotantes afecten su posición */
+    margin-top: 200px; /* Espaciado superior */
+}
